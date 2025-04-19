@@ -13,6 +13,15 @@ The Online Shoppers Purchasing Intention Dataset contains anonymized session-lev
 - Features: 17
 - Total Instances: 12,330
 
+## Methodology 
+1. **Data Loading:** Used the Online Shoppers Purchasing Intention Dataset from UCI.
+2. **Preprocessing:** Encoded categorical features and split data into features and target.
+3. **Sampling:** Created 10 random train-test splits (70% train, 30% test).
+4. **Model:** Applied SVM using the NuSVC classifier.
+5. **Optimization:** Tuned kernel, nu, and tol using Bayesian Optimization (100 iterations/sample).
+6. **Evaluation:** Recorded best accuracy and parameters for each sample.
+7. **Analysis:** Identified the highest-performing sample and visualized optimization progress.
+
 ## Result Table
 ![Screenshot 2025-04-19 120233](https://github.com/user-attachments/assets/d563708e-b13e-4751-b1b9-e52b177f00bb)
 
